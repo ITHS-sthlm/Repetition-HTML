@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Repetition</title>
+    </head>
+    <body>
+        <!-- Semantic in HTML5 -->
+        <!-- Reasons to use it?: -->
+        <!--
+        1. Easier to read
+        2. Better SEO (To rank higher in the searches)
+        3. Better Accessability
+        4. Clearer what each part of the page is, as an example the header section is natural
+        to be located in the top
+     -->
+        <!-- Please always consider to use header or nav in top, sections in middle and footer
+    as a last block -->
+        <!-- Reason why to use divs could be that you want to style an element or grid or
+    flex containers  -->
+        <!-- Header including navbar -->
+        <header>
+            <img src="" alt="logotype" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Links</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content, what is unique with this page -->
+        <main>
+            <section>
+                <h2>Lessons</h2>
+                <p>Some text about lesson</p>
+            </section>
+            <!-- Just usning section element is a little bit confusing so to make it
+        more clearer we could add a class or id -->
+            <section class="benefits">
+                <h2>Benefits of choosing Richard as teacher</h2>
+                <p>He is brilliant</p>
+            </section>
+            <article>
+                <h4>Semantics</h4>
+                <p>Some text in this article that explains Semantics</p>
+            </article>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
